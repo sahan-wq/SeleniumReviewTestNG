@@ -32,7 +32,7 @@ public class FhcTripHotelCreateTest extends TestBase {
         Select select = new Select(createPage.idGroupDropDown);
         select.selectByIndex(2);
         createPage.saveButonu.click();
-        Thread.sleep(3000);
+        Thread.sleep(9000);
         Assert.assertTrue(createPage.basariliYazisi.isDisplayed());
         //WebDriverWait wait = new WebDriverWait(driver , 60);
        // WebElement message = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("bootbox-body")));
